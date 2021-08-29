@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['plugin:typescript-sort-keys/recommended', 'prettier'],
+  extends: ['plugin:typescript-sort-keys/recommended', 'plugin:react/jsx-runtime', 'prettier'],
   plugins: ['typescript-sort-keys', 'sort-keys-fix', 'sort-destructure-keys'],
   rules: {
     'indent': ['warn', 2],
@@ -17,5 +17,14 @@ module.exports = {
     'comma-dangle': ['warn', 'always-multiline'],
     'sort-keys-fix/sort-keys-fix': 'warn',
     'sort-destructure-keys/sort-destructure-keys': 'warn',
+    'react/self-closing-comp': 'warn',
+    'react/no-danger': 'error',
+    'react/jsx-boolean-value': ['warn', 'never'],
+    'react/jsx-fragments': ['warn', 'shorthand'],
+    'react/no-unused-state': 'warn',
+    'react/jsx-sort-props': 'warn',
+    'react/jsx-no-useless-fragment': 'warn',
+    'react/destructuring-assignment': ['warn', 'always'],
+    'react/button-has-type': 'warn',
   },
 }

@@ -1,0 +1,18 @@
+{
+  "name": "eslint-config-sort-keys",
+  "version": "1.0.2",
+  "main": "index.js",
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Truong",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": ">=7",
+    "eslint-config-prettier": ">=8",
+    "eslint-plugin-sort-destructure-keys": ">=1",
+    "eslint-plugin-sort-keys-fix": ">=1",
+    "eslint-plugin-typescript-sort-keys": ">=1"
+  }
+}

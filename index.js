@@ -1,6 +1,6 @@
 module.exports = {
   extends: ['plugin:typescript-sort-keys/recommended', 'plugin:react/jsx-runtime', 'prettier'],
-  plugins: ['typescript-sort-keys', 'sort-keys-fix', 'sort-destructure-keys'],
+  plugins: ['typescript-sort-keys', 'simple-import-sort', 'sort-keys-fix', 'sort-destructure-keys'],
   rules: {
     'indent': ['warn', 2],
     'linebreak-style': ['warn', 'unix'],
@@ -43,7 +43,8 @@ module.exports = {
     'prefer-rest-params': 'error',
     'prefer-spread': 'warn',
     'prefer-template': 'warn',
-    'sort-imports': 'warn',
+    'simple-import-sort/imports': 'error',
+    'simple-import-sort/exports': 'error',
     'symbol-description': 'error',
     'sort-keys-fix/sort-keys-fix': 'warn',
     'sort-destructure-keys/sort-destructure-keys': 'warn',

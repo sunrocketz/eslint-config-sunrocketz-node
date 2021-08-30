@@ -27,7 +27,7 @@ module.exports = {
     'jsx-quotes': ['warn', 'prefer-single'],
     'comma-dangle': ['warn', 'always-multiline'],
     'no-await-in-loop': 'error',
-    'no-extra-parens': 'warn',
+    'no-extra-parens': ['warn', 'all', { enforceForArrowConditionals: false }],
     'no-loss-of-precision': 'warn',
     'no-template-curly-in-string': 'warn',
     'accessor-pairs': 'warn',

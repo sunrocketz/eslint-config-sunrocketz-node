@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-sort-keys",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "main": "index.js",
   "keywords": [
     "eslint",
@@ -14,6 +14,7 @@
     "eslint-plugin-simple-import-sort": ">=7",
     "eslint-plugin-sort-destructure-keys": ">=1",
     "eslint-plugin-sort-keys-fix": ">=1",
-    "eslint-plugin-typescript-sort-keys": ">=1"
+    "eslint-plugin-typescript-sort-keys": ">=1",
+    "eslint-plugin-unused-imports": "1.1.4"
   }
 }

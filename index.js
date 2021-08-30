@@ -1,6 +1,12 @@
 module.exports = {
   extends: ['plugin:typescript-sort-keys/recommended', 'plugin:react/jsx-runtime', 'prettier'],
-  plugins: ['typescript-sort-keys', 'simple-import-sort', 'sort-keys-fix', 'sort-destructure-keys'],
+  plugins: [
+    'typescript-sort-keys',
+    'simple-import-sort',
+    'sort-keys-fix',
+    'sort-destructure-keys',
+    'unused-imports',
+  ],
   rules: {
     'indent': ['warn', 2],
     'linebreak-style': ['warn', 'unix'],
@@ -39,6 +45,12 @@ module.exports = {
     'no-whitespace-before-property': 'warn',
     'sort-vars': 'warn',
     'no-var': 'error',
+    'no-unused-vars': 'off', // or "@typescript-eslint/no-unused-vars": "off",
+    'unused-imports/no-unused-imports': 'error',
+    'unused-imports/no-unused-vars': [
+      'warn',
+      { vars: 'all', varsIgnorePattern: '^_', args: 'after-used', argsIgnorePattern: '^_' },
+    ],
     'prefer-const': 'error',
     'prefer-rest-params': 'error',
     'prefer-spread': 'warn',

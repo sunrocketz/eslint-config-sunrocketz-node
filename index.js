@@ -20,7 +20,7 @@ module.exports = {
     'react/self-closing-comp': 'warn',
     'react/no-danger': 'error',
     'react/jsx-boolean-value': ['warn', 'never'],
-    'react/jsx-fragments': ['warn', 'shorthand'],
+    'react/jsx-fragments': ['warn', 'syntax'],
     'react/no-unused-state': 'warn',
     'react/jsx-sort-props': 'warn',
     'react/jsx-no-useless-fragment': 'warn',

@@ -14,7 +14,6 @@ module.exports = {
   },
   rules: {
     '@typescript-eslint/consistent-type-imports': 'error',
-    'indent': ['warn', 2],
     'linebreak-style': ['warn', 'unix'],
     'quotes': [
       'warn',

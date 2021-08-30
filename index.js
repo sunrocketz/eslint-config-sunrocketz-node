@@ -7,6 +7,7 @@ module.exports = {
     'sort-destructure-keys',
     'unused-imports',
     '@typescript-eslint',
+    'import',
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -43,6 +44,9 @@ module.exports = {
     'no-useless-return': 'warn',
     'require-await': 'error',
     'no-use-before-define': 'error',
+    'import/no-duplicates': 'warn',
+    'import/first': 'warn',
+    'import/newline-after-import': 'warn',
     'no-trailing-spaces': 'warn',
     'no-underscore-dangle': 'warn',
     'no-unneeded-ternary': 'warn',

@@ -6,8 +6,14 @@ module.exports = {
     'sort-keys-fix',
     'sort-destructure-keys',
     'unused-imports',
+    '@typescript-eslint',
   ],
+  parser: '@typescript-eslint/parser',
+  parserOptions: {
+    warnOnUnsupportedTypeScriptVersion: false,
+  },
   rules: {
+    '@typescript-eslint/consistent-type-imports': 'error',
     'indent': ['warn', 2],
     'linebreak-style': ['warn', 'unix'],
     'quotes': [

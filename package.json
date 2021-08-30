@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-sort-keys",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "main": "index.js",
   "keywords": [
     "eslint",
@@ -9,6 +9,8 @@
   "author": "Truong",
   "license": "MIT",
   "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": ">=4",
+    "@typescript-eslint/parser": ">=4",
     "eslint": ">=7",
     "eslint-config-prettier": ">=8",
     "eslint-plugin-simple-import-sort": ">=7",

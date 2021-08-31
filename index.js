@@ -48,7 +48,7 @@ module.exports = {
     'import/first': 'warn',
     'import/newline-after-import': 'warn',
     'no-trailing-spaces': 'warn',
-    'no-underscore-dangle': 'warn',
+    // 'no-underscore-dangle': 'warn',
     'no-unneeded-ternary': 'warn',
     'no-whitespace-before-property': 'warn',
     'sort-vars': 'warn',

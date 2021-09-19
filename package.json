@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-sort-keys",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "main": "index.js",
   "keywords": [
     "eslint",

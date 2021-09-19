@@ -83,6 +83,7 @@ module.exports = {
     'react/jsx-pascal-case': ['error', { allowNamespace: true, allowLeadingUnderscore: true }],
     'react/jsx-boolean-value': ['warn', 'never'],
     'react/jsx-no-useless-fragment': 'warn',
+    'jsx-a11y/anchor-is-valid': 'off',
     'jsx-quotes': ['warn', 'prefer-single'],
   },
 }

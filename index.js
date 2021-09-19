@@ -80,7 +80,7 @@ module.exports = {
     'react/destructuring-assignment': ['warn', 'always'],
     'react/jsx-fragments': ['warn', 'syntax'],
     'react/jsx-sort-props': 'warn',
-    'react/jsx-pascal-case': ['error', { allowLeadingUnderscore: true, allowNameSpace: true }],
+    'react/jsx-pascal-case': ['error', { allowNamespace: true, allowLeadingUnderscore: true }],
     'react/jsx-boolean-value': ['warn', 'never'],
     'react/jsx-no-useless-fragment': 'warn',
     'jsx-quotes': ['warn', 'prefer-single'],

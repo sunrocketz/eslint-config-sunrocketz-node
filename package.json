@@ -1,24 +1,28 @@
 {
-  "name": "eslint-config-sort-keys",
-  "version": "1.0.18",
+  "name": "eslint-config-_beavern",
+  "version": "1.0.0",
   "main": "index.js",
   "keywords": [
     "eslint",
-    "eslintconfig"
+    "eslintconfig",
+    "next",
+    "react",
+    "config"
   ],
-  "author": "Truong",
+  "author": "Truong Nguyen",
   "license": "MIT",
   "peerDependencies": {
-    "@typescript-eslint/parser": ">=4",
     "@typescript-eslint/eslint-plugin": ">=4",
+    "@typescript-eslint/parser": ">=4",
     "eslint": ">=7",
+    "eslint-config-prettier": ">=8",
     "eslint-plugin-import": ">=2",
-    "eslint-plugin-jsx-a11y": "6.4.1",
-    "eslint-plugin-sort-keys-fix": ">=1",
-    "eslint-plugin-unused-imports": ">=1",
+    "eslint-plugin-jsx-a11y": ">=6",
     "eslint-plugin-simple-import-sort": ">=7",
-    "eslint-plugin-typescript-sort-keys": ">=1",
     "eslint-plugin-sort-destructure-keys": ">=1",
-    "eslint-config-prettier": ">=8"
+    "eslint-plugin-sort-keys-fix": ">=1",
+    "eslint-plugin-typescript-sort-keys": ">=1",
+    "eslint-plugin-unused-imports": ">=1",
+    "eslint-config-next": ">=11"
   }
 }

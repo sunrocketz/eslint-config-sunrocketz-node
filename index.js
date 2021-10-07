@@ -3,6 +3,7 @@ module.exports = {
     'plugin:jsx-a11y/strict',
     'plugin:react/jsx-runtime',
     'plugin:typescript-sort-keys/recommended',
+    'next/core-web-vitals',
     'prettier',
   ],
   plugins: [

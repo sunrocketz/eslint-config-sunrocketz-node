@@ -1,20 +1,23 @@
 {
   "name": "eslint-config-_beavern",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "keywords": [
     "eslint",
     "eslintconfig",
     "next",
     "react",
-    "config"
+    "config",
+    "graphql"
   ],
   "author": "Truong Nguyen",
   "license": "MIT",
   "peerDependencies": {
+    "@graphql-eslint/eslint-plugin": ">=2",
     "@typescript-eslint/eslint-plugin": ">=4",
     "@typescript-eslint/parser": ">=4",
     "eslint": ">=7",
+    "eslint-config-next": ">=11",
     "eslint-config-prettier": ">=8",
     "eslint-plugin-import": ">=2",
     "eslint-plugin-jsx-a11y": ">=6",
@@ -22,7 +25,6 @@
     "eslint-plugin-sort-destructure-keys": ">=1",
     "eslint-plugin-sort-keys-fix": ">=1",
     "eslint-plugin-typescript-sort-keys": ">=1",
-    "eslint-plugin-unused-imports": ">=1",
-    "eslint-config-next": ">=11"
+    "eslint-plugin-unused-imports": ">=1"
   }
 }

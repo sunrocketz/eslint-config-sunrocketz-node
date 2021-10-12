@@ -1,10 +1,4 @@
 module.exports = {
-  overrides: [
-    {
-      files: ['*.graphql', '*.gql'],
-      extends: 'plugin:@graphql-eslint/recommended',
-    },
-  ],
   extends: [
     'plugin:jsx-a11y/strict',
     'plugin:react/jsx-runtime',

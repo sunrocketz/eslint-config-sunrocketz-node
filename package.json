@@ -1,17 +1,20 @@
 {
-  "name": "eslint-config-_beavern",
-  "version": "1.0.3",
+  "name": "eslint-config-sunrocketz",
+  "version": "1.0.1",
   "main": "index.js",
   "keywords": [
-    "eslint",
-    "eslintconfig",
     "next",
     "react",
-    "config"
+    "config",
+    "eslint",
+    "strict",
+    "sunrocketz",
+    "eslintconfig"
   ],
   "author": "Truong Nguyen",
   "license": "MIT",
   "peerDependencies": {
+    "@next/eslint-plugin-next": "^11",
     "@typescript-eslint/eslint-plugin": "^4",
     "@typescript-eslint/parser": "^4",
     "eslint": "^7",
@@ -21,8 +24,7 @@
     "eslint-plugin-simple-import-sort": "^7",
     "eslint-plugin-sort-destructure-keys": "^1",
     "eslint-plugin-sort-keys-fix": "^1",
-    "eslint-plugin-typescript-sort-keys": "^1",
-    "eslint-plugin-unused-imports": "^1",
-    "eslint-config-next": "^11"
+    "eslint-plugin-typescript-sort-keys": "^2",
+    "eslint-plugin-unused-imports": "^1"
   }
 }

@@ -1,8 +1,8 @@
 module.exports = {
   extends: [
+    'next',
     'plugin:jsx-a11y/strict',
     'plugin:react/jsx-runtime',
-    'plugin:@next/next/recommended',
     'plugin:typescript-sort-keys/recommended',
     'prettier',
   ],

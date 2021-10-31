@@ -88,6 +88,8 @@ module.exports = {
     'react/react-in-jsx-scope': 'off',
     'react/prop-types': 'off',
     'jsx-a11y/anchor-is-valid': 'off',
+    'jsx-a11y/label-has-for': off,
+    'jsx-a11y/label-has-associated-control': off,
     'jsx-a11y/aria-props': 'warn',
     'jsx-a11y/aria-proptypes': 'warn',
     'jsx-a11y/aria-unsupported-elements': 'warn',

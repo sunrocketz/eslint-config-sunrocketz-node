@@ -75,5 +75,6 @@ module.exports = {
     'sort-destructure-keys/sort-destructure-keys': 'warn',
     'sort-keys-fix/sort-keys-fix': 'warn',
     'node/no-unsupported-features/es-syntax': 'off',
+    'unicorn/prefer-module': 'off',
   },
 }

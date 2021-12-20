@@ -68,6 +68,8 @@ module.exports = {
     'prefer-spread': 'warn',
     'prefer-template': 'warn',
     'prefer-rest-params': 'error',
+    'simple-import-sort/imports': 'error',
+    'simple-import-sort/exports': 'error',
     'symbol-description': 'error',
     'sort-destructure-keys/sort-destructure-keys': 'warn',
     'node/no-unsupported-features/es-syntax': 'off',

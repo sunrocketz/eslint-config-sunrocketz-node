@@ -10,6 +10,7 @@ module.exports = {
   plugins: [
     '@typescript-eslint',
     'import',
+    'simple-import-sort',
     'sort-destructure-keys',
     'sort-keys-fix',
     'typescript-sort-keys',

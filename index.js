@@ -11,6 +11,7 @@ module.exports = {
     '@typescript-eslint',
     'import',
     'sort-destructure-keys',
+    'sort-keys-fix',
     'typescript-sort-keys',
     'unused-imports',
   ],
@@ -54,7 +55,6 @@ module.exports = {
     'no-whitespace-before-property': 'warn',
     'require-await': 'error',
     'sort-vars': 'warn',
-    'sort-imports': 'warn',
     'import/no-duplicates': 'warn',
     'import/first': 'warn',
     'import/no-anonymous-default-export': 'warn',
@@ -72,6 +72,7 @@ module.exports = {
     'simple-import-sort/exports': 'error',
     'symbol-description': 'error',
     'sort-destructure-keys/sort-destructure-keys': 'warn',
+    'sort-keys-fix/sort-keys-fix': 'warn',
     'node/no-unsupported-features/es-syntax': 'off',
   },
 }

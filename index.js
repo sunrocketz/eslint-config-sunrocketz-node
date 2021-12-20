@@ -72,5 +72,6 @@ module.exports = {
     'simple-import-sort/exports': 'error',
     'symbol-description': 'error',
     'sort-destructure-keys/sort-destructure-keys': 'warn',
+    'node/no-unsupported-features/es-syntax': 'off',
   },
 }

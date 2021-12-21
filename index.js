@@ -16,6 +16,9 @@ module.exports = {
     'typescript-sort-keys',
     'unused-imports',
   ],
+  globals: {
+    NodeJS: true,
+  },
   parser: '@typescript-eslint/parser',
   parserOptions: {
     warnOnUnsupportedTypeScriptVersion: false,

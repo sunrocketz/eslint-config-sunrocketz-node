@@ -1,4 +1,8 @@
 module.exports = {
+  env: {
+    node: true,
+    commonjs: true,
+  },
   extends: [
     'eslint:recommended',
     'plugin:promise/recommended',
@@ -15,9 +19,6 @@ module.exports = {
     'typescript-sort-keys',
     'unused-imports',
   ],
-  globals: {
-    NodeJS: true,
-  },
   parser: '@typescript-eslint/parser',
   parserOptions: {
     warnOnUnsupportedTypeScriptVersion: false,

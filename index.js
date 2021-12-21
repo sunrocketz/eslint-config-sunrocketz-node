@@ -1,7 +1,6 @@
 module.exports = {
   extends: [
     'eslint:recommended',
-    'plugin:node/recommended',
     'plugin:promise/recommended',
     'plugin:unicorn/recommended',
     'plugin:typescript-sort-keys/recommended',
@@ -77,7 +76,6 @@ module.exports = {
     'symbol-description': 'error',
     'sort-destructure-keys/sort-destructure-keys': 'warn',
     'sort-keys-fix/sort-keys-fix': 'warn',
-    'node/no-unsupported-features/es-syntax': 'off',
     'unicorn/prefer-module': 'off',
   },
 }

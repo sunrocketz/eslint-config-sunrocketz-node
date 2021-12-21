@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-sunrocketz-node",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "main": "index.js",
   "keywords": [
     "config",
@@ -16,7 +16,6 @@
     "@typescript-eslint/parser": "^5.7.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.25.3",
-    "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",
     "eslint-plugin-sort-destructure-keys": "^1.4.0",

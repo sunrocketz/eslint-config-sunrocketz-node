@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-sunrocketz-node",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "main": "index.js",
   "keywords": [
     "config",
@@ -28,5 +28,8 @@
     "eslint": "^8.5.0",
     "prettier": "^2.5.1",
     "typescript": "^4.5.4"
+  },
+  "devDependencies": {
+    "@types/eslint": "^8.2.1"
   }
 }

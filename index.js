@@ -75,5 +75,6 @@ module.exports = {
       'error',
       { vars: 'all', varsIgnorePattern: '^_', args: 'after-used', argsIgnorePattern: '^_' },
     ],
+    'unicorn/no-array-reduce': 'off',
   },
 }
